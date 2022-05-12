@@ -1,0 +1,1 @@
+[15-Sep-2020 07:40:20 Europe/Berlin] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in C:\xampp\htdocs\treciDomaci\models\Player.php on line 43

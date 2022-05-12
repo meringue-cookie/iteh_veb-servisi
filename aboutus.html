@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body style="background-color: #fff2df;">
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<img src="img/logo.png" style="width: 130px; height: 130px;">
+
+<hr>
+
+<h2>Learn More :)</h2>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content" style="border-radius: 15px;">
+      <img src="https://www.myhappypets.com/sites/default/files/zylkene-dog-lady.jpg" style="width:100%">
+      <h3 style="text-align: justify;">Pets can make happier, healthier life for you</h3>
+      <p style="text-align: justify;">We include them in our family portraits, make room for them on our beds, tell them our deepest secrets and miss work when they are sick. And whether they paw, fly or swim their way into our hearts, pets are an important part of our lives.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content" style="border-radius: 15px;">
+    <img src="https://cf.ltkcdn.net/dogs/images/orig/206270-1600x1067-Christmas-puppy.jpg" style="width:100%">
+      <h3 style="text-align: justify;">Want to Gift Someone a Pet? Here is What to Do First</h3>
+      <p style="text-align: justify;">Many animal shelters sell gift certificates that cover the rescue fee. Giving a gift certificate to cover the cost of adoption allows pet parents time to research what they are looking for and adequately prepare for the exciting arrival of a new companion animal. Plus, both parties can pick out the new addition together, making the gift even more special.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content" style="border-radius: 15px;">
+    <img src="https://www.litter-robot.com/blog/wp-content/uploads/2016/01/girl-and-cat-2-1080-510x339.jpg" style="width:100%">
+      <h3 style="text-align: justify;">Do Cats Really Love You Less Than Dogs?</h3>
+      <p style="text-align: justify;">Unlike dogs, who have been working and living with humans far longer, cats do not look to people for their daily needs. However, they do clearly form social bonds with their owners and show affectionate behavior, as well as a preference for their guardian(s) over non-household humans. In short, do not let catchy headlines make you doubt your cats love. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content" style="border-radius: 15px;">
+    <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/03/13/16/fat-pets.jpg?w968h681" style="width:100%">
+      <h3 style="text-align: justify;">We need to stop letting our pets get fat!</h3>
+      <p style="text-align: justify;">While overweight pets may not face the same social stigma as humans, medical and emotional damage is being done all the same. Obesity in animals can cause complications in almost every system in the body, with conditions ranging from diabetes to osteoarthritis.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content" style="border-radius: 15px;">
+  <img src="https://www.warrenphotographic.co.uk/photography/bigs/18020-Sleepy-Cocker-Spaniel-pup-with-ginger-kitten-white-background.jpg" style="width:100%">
+  <h3 style="text-align: justify;">Why owning a pet makes you 'happier and more likely to live longer'</h3>
+  <p style="text-align: justify;">Owning a lively pet may sometimes prove exasperating, but it appears all the effort is worth it.
+
+    Pet owners are healthier, have greater self-esteem and are less lonely than those who don't have animals at home, according to a study.
+    
+    Not only that, but they are also more conscientious, extroverted and less fearful, researchers at the American Psychological Association said.</p>
+  <p style="text-align: justify;">Pet owners are just as close to key people in their lives as to their animals, the study found.
+
+    This indicates no evidence that relationships with pets come at the expense of relationships with other people, or that people relied more on pets when their human social support was poorer.
+    
+    The scientists, from Miami University and Saint Louis University in Missouri, conducted three experiments to examine the potential benefits of pet ownership among what they called 'everyday people'.
+    
+    They questioned 217 people with an average age of 31 and family income of $77,000, 79 per cent of whom were women.
+    
+    The group answered a survey aimed at determining whether pet owners differed from people without pets in terms of well-being and personality type.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
